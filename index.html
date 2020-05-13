@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Formulaire</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Modifier mon profil</h1>
+        <hr>
+        <form class="form" action="">
+            <div class="grid">
+                <div class="form-group col4 col6 col12">
+                    <label for="name">Nom</label>
+                    <input class="form-control" id="name" type="text">
+                </div>
+                <div class="form-group col4 col6 col12">
+                    <label for="first_name">Prénom</label>
+                    <input class="form-control" id="first_name" type="text">
+                </div>
+                <div class="form-group col4 col6 col12 bio">
+                    <label for="bio">Bio</label>
+                    <textarea class="form-control" name="bio" id="bio" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group col4 col6 col12">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" type="email" placeholder="monmail@demo.fr">
+                </div>
+                <div class="form-group col4 col6 col12">
+                    <label for="number">Téléphone(Mobile)</label>
+                    <input class="form-control" id="number" type="number">
+                </div>
+                <div class="form-group col4 col6 col12">
+                    <label for="adress">Address</label>
+                    <input class="form-control" id="adress" type="text">
+                </div>
+                <div class="form-group col4 col6 col12">
+                    <label for="city">City</label>
+                    <input class="form-control" id="city" type="text">
+                </div>
+                
+                <div class="form-group col4 col6 col12">
+                    <label for="postal">Postal</label>
+                    <input class="form-control" id="postal" type="number">
+                </div>
+            </div>
+
+            <div class="checkbox">
+                <div class="case1">
+                    <input type="checkbox" id="case1">
+                    <label for="case1">Je souhaite recevoir la newsletter</label>
+                </div>
+                <div class="case2">
+                    <input type="checkbox" id="case2">
+                    <label for="case2">Je souhaite recevoir la newsletter des partenaires</label>
+                </div>
+            </div>
+
+            <div class="btn">
+                <button type="submit">Enregistrer mes modifications </button>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
